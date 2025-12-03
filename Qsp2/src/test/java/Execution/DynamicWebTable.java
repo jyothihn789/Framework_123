@@ -17,6 +17,8 @@ public class DynamicWebTable {
 		driver.manage().window().maximize();
 		
 		driver.get("https://testautomationpractice.blogspot.com/");
+		
+		System.out.println("hello world");
 
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,2200)");
