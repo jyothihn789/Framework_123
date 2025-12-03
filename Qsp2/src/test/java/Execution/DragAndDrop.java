@@ -18,6 +18,7 @@ public class DragAndDrop {
 		 WebElement source = driver.findElement(By.id("draggable"));
 		WebElement target = driver.findElement(By.id("droppable"));
 		 System.out.println("Hello world");
+		 System.out.println("Hello Earth");
 		
 		act.dragAndDrop(source, target).perform();
 
